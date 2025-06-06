@@ -125,10 +125,10 @@ export default function SocialMedia() {
 
       <SwipeableViews index={value} onChangeIndex={handleChangeIndex}>
         <TabPanel value={value} index={0}>
-          <a href="https://www.instagram.com/drianlm._/">
+          <a href="https://www.instagram.com/drianlimiago/">
             <img
-              src="/SocialMediaImg/Instagram.jpeg"
-              alt="Instagram Eki"
+              src="/SocialMediaImg/instagram.png"
+              alt="Instagram Drian"
               className="object-contain h-auto w-[10rem] md:w-[14.3rem]  rounded-xl "
             />
           </a>

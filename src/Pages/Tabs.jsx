@@ -71,14 +71,14 @@ const staticProjects = [
     Description: "HTML | CSS | JS | Tailwind CSS | ReactJs | Redux",
     Link: "https://example.com/project2",
   },
-  // {
-  //   id: 3,
-  //   Img: "/portofolio-gri-beef.png",
-  //   Title: "Frontend Web Developer",
-  //   Name: "Giri Beef Nusantara",
-  //   Description: "HTML | CSS | JS | Bootstrap | Laravel (PHP)",
-  //   Link: "https://example.com/project3",
-  // },
+  {
+    id: 3,
+    Img: "/TAP2EARN.png",
+    Title: "Frontend Web Developer",
+    Name: "TAP2EARN Crypto Game",
+    Description: "Next.js | CSS | JS | Tailwind CSS ",
+    Link: "https://example.com/project3",
+  },
   // {
   //   id: 4,
   //   Img: "/portofolio-labella.png",

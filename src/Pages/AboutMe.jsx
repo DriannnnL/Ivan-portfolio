@@ -96,7 +96,7 @@ const AboutMe = () => {
                 id="InfoAbout"
               >
                 {/* <b className="text-3xl text-[#ced4d7]">{projectCount}+</b> */}
-                <b className="text-3xl text-[#ced4d7]">2+</b>
+                <b className="text-3xl text-[#ced4d7]">3+</b>
                 <div className="text-center text-[#a6adba]">
                   Project Created
                 </div>

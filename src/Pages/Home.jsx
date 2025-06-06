@@ -6,7 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Home = () => {
-  const text = "Web Developer";
+  const text = "Front-End Developer";
 
   useEffect(() => {
     AOS.init();
