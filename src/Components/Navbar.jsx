@@ -47,8 +47,12 @@ function Contact() {
 	return <a href="#Contact">Contact</a>
 }
 
+function Pricing() {
+	return <a href="#Pricing">Pricing</a>
+}
+
 const drawerWidth = 240
-const navItems = [<Home />, <About />, <Contact />]
+const navItems = [<Home />, <About />, <Pricing />, <Contact />]
 
 function DrawerAppBar(props) {
 	const { window } = props
@@ -61,17 +65,20 @@ function DrawerAppBar(props) {
 	const drawer = (
 		<Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
 			<Typography variant="h6" sx={{ my: 2 }} id="Navbar">
-				<b>DRIAN</b>
+				<b>Ivan Nailsen</b>
 			</Typography>
 			<Divider />
 			<List>
-				{navItems.map((item) => (
-					<ListItem key={item} disablePadding>
-						<ListItemButton sx={{ textAlign: "center" }}>
-							<ListItemText primary={item} />
-						</ListItemButton>
-					</ListItem>
-				))}
+			{navItems.map((item) => (
+	<ListItem key={item} disablePadding>
+		<ListItemButton
+			sx={{ textAlign: "center" }}
+			component="a"
+			href={`#${item}`}>
+			<ListItemText primary={item} />
+		</ListItemButton>
+	</ListItem>
+))}
 			</List>
 		</Box>
 	)

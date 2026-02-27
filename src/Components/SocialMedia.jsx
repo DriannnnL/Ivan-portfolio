@@ -78,7 +78,7 @@ export default function SocialMedia() {
         <Tab
           label={
             <div className="flex gap-x-3 w-full">
-              <img src="/SocialMediaImg/instagram.svg" alt="Instagram Eki" />
+              <img src="/SocialMediaImg/instagram.svg" alt="Instagram Ivan" />
               Instagram
             </div>
           }
@@ -94,8 +94,8 @@ export default function SocialMedia() {
         <Tab
           label={
             <div className="flex gap-x-3 w-full">
-              <img src="/SocialMediaImg/linkedin.svg" alt="Linkedin Eki" />
-              Linkedin
+              <img src="/SocialMediaImg/linkedin.svg" alt="Tiktok Ivan" />
+              Tiktok
             </div>
           }
           {...a11yProps(1)}
@@ -106,7 +106,7 @@ export default function SocialMedia() {
             fontSize: ["0.7rem", "1rem"],
           }}
         />
-        <Tab
+        {/* <Tab
           label={
             <div className="flex gap-x-3 w-full">
               <img src="/SocialMediaImg/github.svg" alt="Github Eki" />
@@ -120,29 +120,29 @@ export default function SocialMedia() {
             color: "#ced4d7",
             fontSize: ["0.7rem", "1rem"],
           }}
-        />
+        /> */}
       </Tabs>
 
       <SwipeableViews index={value} onChangeIndex={handleChangeIndex}>
         <TabPanel value={value} index={0}>
-          <a href="https://www.instagram.com/drianlimiago/">
+          <a href="https://www.instagram.com/1vannn.x/">
             <img
-              src="/SocialMediaImg/instagram.png"
-              alt="Instagram Drian"
+              src="/SocialMediaImg/Instagram.jpg"
+              alt="Instagram Ivan"
               className="object-contain h-auto w-[10rem] md:w-[14.3rem]  rounded-xl "
             />
           </a>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <a href="https://www.linkedin.com/in/adrian-lim-740043325/">
+          <a href="https://www.tiktok.com/@1vanneilsen">
             <img
-              src="/SocialMediaImg/linkedin.jpeg"
-              alt="Linkedin Adrian"
+              src="/SocialMediaImg/Tiktok.jpg"
+              alt="Tiktok Ivan"
               className="object-contain h-auto w-[10rem] md:w-[14.3rem] rounded-xl"
             />
           </a>
         </TabPanel>
-        <TabPanel value={value} index={2}>
+        {/* <TabPanel value={value} index={2}>
           <a href="https://github.com/Drian27">
             <img
               src="/SocialMediaImg/github.jpeg"
@@ -150,7 +150,7 @@ export default function SocialMedia() {
               className="object-contain h-auto w-[10rem] md:w-[14.3rem] rounded-xl"
             />
           </a>
-        </TabPanel>
+        </TabPanel> */}
       </SwipeableViews>
     </Box>
   );

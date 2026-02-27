@@ -6,7 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Home = () => {
-  const text = "Front-End Developer";
+  const text = "Streamer & Gamers";
 
   useEffect(() => {
     AOS.init();
@@ -23,7 +23,7 @@ const Home = () => {
               Hello There 👋
             </h5>
             <h1 className="md:text-6xl text-4xl text-[#ced4d7] font-bold mb-2 pr-[1%]" data-aos="fade-up" data-aos-duration="1000">
-              I’m ADRIAN LIM
+              I’m IVAN NAILSEN
             </h1>
 
             <div data-aos="fade-up" data-aos-duration="1100">
@@ -44,7 +44,7 @@ const Home = () => {
         <div className="flex justify-center items-center md:w-1/2">
           <Tilt>
             <div className="relative md:bottom-[3em] bottom-[5em]">
-              <img src="/Computer.svg" alt="Ilustrasi komputer" id="ImgKomputer" />
+              <img src="../../dist/gaming.jpg" alt="Ilustrasi komputer" id="ImgKomputer" />
             </div>
           </Tilt>
         </div>

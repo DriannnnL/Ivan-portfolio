@@ -44,12 +44,12 @@ const AboutMe = () => {
         </div>
         <div className="flex flex-col md:flex-row">
           {/* Kolom Kiri */}
-          <div className="flex justify-center items-center md:pr-10 pr-0 md:w-auto ">
+          <div className="flex justify-center md:pr-10 pr-0 md:w-auto ">
             <div data-aos="fade-up" data-aos-duration="1000">
               <img
-                src="/hero-1.jpeg"
-                alt="Photo Drian"
-                className="w-[30rem] h-auto rounded-xl "
+                src="/Ivan.jpg"
+                alt="Photo Ivan Nailsen"
+                className="w-[35rem] h-auto rounded-xl"
                 id="ImgAbout"
               />
             </div>
@@ -62,12 +62,32 @@ const AboutMe = () => {
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              I am Adrian Lim, a student studying Information Engineering with a
-              focus on front-end web development. I have a strong determination
-              to continue learning and honing my skills in order to achieve
-              perfection. Always try to find the best solution in every project
-              I work on and have a great interest in the front-end web field.
+              Ivan Nailsen is a gaming streamer and content creator who actively builds his personal brand across various social media platforms. With a strong focus on content quality and consistency, Ivan delivers live streaming experiences that are engaging, interactive, and value-driven.
             </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              Experienced in playing a wide range of game genres—from competitive multiplayer titles to story-driven games—Ivan goes beyond gameplay by sharing strategies, analysis, and insights that provide meaningful value to his audience.
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              As a streamer, Ivan is committed to fostering a positive, supportive, and professional community. He believes that the gaming and digital entertainment industry offers significant opportunities for collaboration, education, and creative growth.
+            </p>
+
+            {/* <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              With a mindset of continuous improvement, Ivan consistently enhances his production quality, communication skills, and audience engagement to deliver the best possible experience for viewers and potential brand partners.
+            </p> */}
 
             <div
               className="relative "
@@ -77,7 +97,7 @@ const AboutMe = () => {
               <ButtonCV />
             </div>
 
-            <div
+            {/* <div
               class="grid grid-cols-3 md:gap-4 gap-5 mt-5"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -86,7 +106,7 @@ const AboutMe = () => {
                 class="w-auto h-[8em] flex flex-col justify-center items-center rounded-sm"
                 id="InfoAbout"
               >
-                <b className="text-3xl text-[#ced4d7]">1+</b>
+                <b className="text-3xl text-[#ced4d7]">4+</b>
                 <div className="text-center text-[#a6adba]">
                   Years of Experience
                 </div>
@@ -95,7 +115,7 @@ const AboutMe = () => {
                 class="w-auto h-[8em] flex flex-col justify-center items-center rounded-sm"
                 id="InfoAbout"
               >
-                {/* <b className="text-3xl text-[#ced4d7]">{projectCount}+</b> */}
+                <b className="text-3xl text-[#ced4d7]">{projectCount}+</b>
                 <b className="text-3xl text-[#ced4d7]">3+</b>
                 <div className="text-center text-[#a6adba]">
                   Project Created
@@ -105,11 +125,11 @@ const AboutMe = () => {
                 class="w-auto h-[8em] flex flex-col justify-center items-center rounded-sm"
                 id="InfoAbout"
               >
-                {/* <b className="text-3xl text-[#ced4d7]">{certificateCount}+</b> */}
+                <b className="text-3xl text-[#ced4d7]">{certificateCount}+</b>
                 <b className="text-3xl text-[#ced4d7]">1+</b>
                 <div className="text-center text-[#a6adba]">Certificate</div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
