@@ -73,16 +73,16 @@ const Tnc = () => {
                 Scope of Work
             </p>
 
-            <p
-              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-                Jenis konten: (Post, Story, Reels, Live Streaming, dll)
-                Platform: disesuaikan dengan kesepakatan
-                Brief & konsep konten harus diberikan oleh klien sebelum produksi
-                Ivan berhak menyesuaikan gaya penyampaian agar tetap sesuai dengan personal branding
-            </p>
+            <div
+  className="text-[#a6adba] text-xl mb-5 mt-5 md:mt-0"
+  data-aos="fade-up"
+  data-aos-duration="600"
+>
+<p className="mb-2">Jenis konten: (Post, Story, Reels, Live Streaming, dll)</p>
+  <p className="mb-2">Platform: disesuaikan dengan kesepakatan</p>
+  <p className="mb-2">Brief & konsep konten harus diberikan oleh klien sebelum produksi</p>
+  <p className="mb-2">Ivan berhak menyesuaikan gaya penyampaian agar tetap sesuai dengan personal branding</p>
+</div>
 
             <p
               className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
@@ -92,17 +92,19 @@ const Tnc = () => {
                 Payment Terms
             </p>
 
-            <p
-              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-                Pembayaran dilakukan sesuai rate yang telah disepakati
-                Sistem pembayaran:
-                Full payment di awal, atau
-                DP 50% + pelunasan sebelum posting
-                Pembayaran yang sudah dilakukan tidak dapat dikembalikan (non-refundable)
-            </p>
+            <div
+  className="text-[#a6adba] text-xl mb-5 mt-5 md:mt-0"
+  data-aos="fade-up"
+  data-aos-duration="600"
+>
+  <p className="mb-2">Pembayaran dilakukan sesuai rate yang telah disepakati</p>
+  <p className="mb-2">Sistem pembayaran:</p>
+  <ul className="list-disc pl-5 space-y-1">
+    <li>Full payment di awal, atau</li>
+    <li>DP 50% + pelunasan sebelum posting</li>
+  </ul>
+  <p className="mb-2">Pembayaran yang sudah dilakukan tidak dapat dikembalikan (non-refundable)</p>
+</div>
 
             <p
               className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
@@ -112,15 +114,15 @@ const Tnc = () => {
                 Timeline & Delivery
             </p>
 
-            <p
-              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-                Waktu pengerjaan konten: 3–7 hari kerja (tergantung kompleksitas)
-                Revisi maksimal: 2x revisi minor
-                Keterlambatan dari pihak klien (brief, approval) akan mempengaruhi timeline
-            </p>
+            <div
+  className="text-[#a6adba] text-xl mb-5 mt-5 md:mt-0"
+  data-aos="fade-up"
+  data-aos-duration="600"
+>
+<p className="mb-2">Waktu pengerjaan konten: 3–7 hari kerja (tergantung kompleksitas)</p>
+  <p className="mb-2">Revisi maksimal: 2x revisi minor</p>
+  <p className="mb-2">Keterlambatan dari pihak klien (brief, approval) akan mempengaruhi timeline</p>
+</div>
 
             <p
               className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
@@ -130,16 +132,18 @@ const Tnc = () => {
                 Revisions Policy
             </p>
 
-            <p
-              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-                Revisi hanya berlaku untuk:
-                Kesalahan informasi
-                Ketidaksesuaian dengan brief awal
-                Revisi besar / perubahan konsep = biaya tambahan
-            </p>
+            <div
+  className="text-[#a6adba] text-xl mb-5 mt-5 md:mt-0"
+  data-aos="fade-up"
+  data-aos-duration="600"
+>
+  <p className="mb-2">Revisi hanya berlaku untuk:</p>
+  <ul className="list-disc pl-5 space-y-1">
+    <li>Kesalahan informasi</li>
+    <li>Ketidaksesuaian dengan brief awal</li>
+  </ul>
+  <p className="mb-2">Revisi besar / perubahan konsep = biaya tambahan</p>
+</div>
 
             <p
               className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
@@ -149,16 +153,18 @@ const Tnc = () => {
                 Content Restrictions
             </p>
 
-            <p
-              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-                Ivan berhak menolak kerja sama yang mengandung:
-                Konten negatif / SARA / ilegal
-                Produk yang merugikan (scam, judi, dll)
-                Brand yang bertentangan dengan nilai personal
-            </p>
+            <div
+  className="text-[#a6adba] text-xl mb-5 mt-5 md:mt-0"
+  data-aos="fade-up"
+  data-aos-duration="600"
+>
+  <p className="mb-2">Ivan berhak menolak kerja sama yang mengandung:</p>
+  <ul className="list-disc pl-5 space-y-1">
+    <li>Konten negatif / SARA / ilegal</li>
+    <li>Produk yang merugikan (scam, judi, dll)</li>
+    <li>Brand yang bertentangan dengan nilai personal</li>
+  </ul>
+</div>
 
             <p
               className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
@@ -168,15 +174,17 @@ const Tnc = () => {
                 Usage Rights
             </p>
 
-            <p
-              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-                Konten hanya boleh digunakan oleh klien untuk keperluan promosi internal
-                Penggunaan untuk iklan berbayar (ads) harus dengan izin dan biaya tambahan
-                Hak cipta tetap dimiliki oleh Ivan Neilsen
-            </p>
+            <div
+  className="text-[#a6adba] text-xl mb-5 mt-5 md:mt-0"
+  data-aos="fade-up"
+  data-aos-duration="600"
+>
+  <ul className="list-disc pl-5 space-y-1">
+    <li>Konten hanya boleh digunakan oleh klien untuk keperluan promosi internal</li>
+    <li>Penggunaan untuk iklan berbayar (ads) harus dengan izin dan biaya tambahan</li>
+    <li>Hak cipta tetap dimiliki oleh Ivan Neilsen</li>
+  </ul>
+</div>
 
             <p
               className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
@@ -186,16 +194,20 @@ const Tnc = () => {
                 Cancellation Policy
             </p>
 
-            <p
-              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-                Pembatalan oleh klien setelah pembayaran:
-                DP hangus
-                Jika konten sudah diproduksi:
-                Klien tetap wajib membayar penuh
-            </p>
+            <div
+  className="text-[#a6adba] text-xl mb-5 mt-5 md:mt-0"
+  data-aos="fade-up"
+  data-aos-duration="600"
+>
+  <p className="mb-2">Pembatalan oleh klien setelah pembayaran:</p>
+  <ul className="list-disc pl-5 space-y-1">
+    <li>DP hangus</li>
+  </ul>
+  <p className="mb-2">Jika konten sudah diproduksi:</p>
+  <ul className="list-disc pl-5 space-y-1">
+    <li>Klien tetap wajib membayar penuh</li>
+  </ul>
+</div>
 
             <p
               className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
@@ -205,15 +217,17 @@ const Tnc = () => {
                 Performance Disclaimer
             </p>
 
-            <p
-              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-                Ivan tidak menjamin:
-                Jumlah views / likes / engagement tertentu
-                Hasil campaign tergantung banyak faktor (algoritma, audience, dll)
-            </p>
+            <div
+  className="text-[#a6adba] text-xl mb-5 mt-5 md:mt-0"
+  data-aos="fade-up"
+  data-aos-duration="600"
+>
+  <p className="mb-2">Ivan tidak menjamin:</p>
+  <ul className="list-disc pl-5 space-y-1">
+    <li>Jumlah views / likes / engagement tertentu</li>
+    <li>Hasil campaign tergantung banyak faktor (algoritma, audience, dll)</li>
+  </ul>
+</div>
 
             <p
               className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
@@ -223,16 +237,19 @@ const Tnc = () => {
                 Confidentiality
             </p>
 
-            <p
-              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-                Kedua pihak wajib menjaga kerahasiaan:
-                Data kerja sama,
-                Informasi bisnis,
-                Detail campaign
-            </p>
+            <div
+  className="text-[#a6adba] text-xl mb-5 mt-5 md:mt-0"
+  data-aos="fade-up"
+  data-aos-duration="600"
+>
+  <p className="mb-2">Kedua pihak wajib menjaga kerahasiaan:</p>
+  <ul className="list-disc pl-5 space-y-1">
+    <li>Data kerja sama</li>
+    <li>Informasi bisnis</li>
+    <li>Detail campaign</li>
+  </ul>
+</div>
+
 
             <p
               className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
