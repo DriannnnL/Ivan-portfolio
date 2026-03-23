@@ -41,9 +41,9 @@ const Home = () => {
         </div>
 
         {/* Kolom Kanan */}
-        <div className="flex justify-center items-center md:w-1/2">
+        <div className="flex justify-center items-center md:w-2/3">
           <Tilt>
-            <div className="relative md:bottom-[3em] bottom-[5em]">
+            <div className="relative md:bottom-[3em]">
             <img src="/gaming.jpg" alt="Ilustrasi komputer" />
             </div>
           </Tilt>
