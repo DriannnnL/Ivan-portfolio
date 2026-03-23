@@ -89,13 +89,13 @@ const AboutMe = () => {
               With a mindset of continuous improvement, Ivan consistently enhances his production quality, communication skills, and audience engagement to deliver the best possible experience for viewers and potential brand partners.
             </p> */}
 
-            <div
+            {/* <div
               className="relative "
               data-aos="fade-up"
               data-aos-duration="800"
             >
               <ButtonCV />
-            </div>
+            </div> */}
 
             {/* <div
               class="grid grid-cols-3 md:gap-4 gap-5 mt-5"
