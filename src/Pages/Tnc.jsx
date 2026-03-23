@@ -61,7 +61,16 @@ const Tnc = () => {
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              Ivan Nailsen is a gaming streamer and content creator who actively builds his personal brand across various social media platforms. With a strong focus on content quality and consistency, Ivan delivers live streaming experiences that are engaging, interactive, and value-driven.
+                Ivan Neilsen adalah seorang influencer dan content creator yang menyediakan layanan promosi melalui platform digital seperti Instagram, TikTok, YouTube, dan live streaming.
+                Dengan melakukan kerja sama, pihak brand/klien dianggap telah membaca, memahami, dan menyetujui seluruh ketentuan yang berlaku.
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Scope of Work
             </p>
 
             <p
@@ -69,7 +78,18 @@ const Tnc = () => {
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              Experienced in playing a wide range of game genres—from competitive multiplayer titles to story-driven games—Ivan goes beyond gameplay by sharing strategies, analysis, and insights that provide meaningful value to his audience.
+                Jenis konten: (Post, Story, Reels, Live Streaming, dll)
+                Platform: disesuaikan dengan kesepakatan
+                Brief & konsep konten harus diberikan oleh klien sebelum produksi
+                Ivan berhak menyesuaikan gaya penyampaian agar tetap sesuai dengan personal branding
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Payment Terms
             </p>
 
             <p
@@ -77,7 +97,157 @@ const Tnc = () => {
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              As a streamer, Ivan is committed to fostering a positive, supportive, and professional community. He believes that the gaming and digital entertainment industry offers significant opportunities for collaboration, education, and creative growth.
+                Pembayaran dilakukan sesuai rate yang telah disepakati
+                Sistem pembayaran:
+                Full payment di awal, atau
+                DP 50% + pelunasan sebelum posting
+                Pembayaran yang sudah dilakukan tidak dapat dikembalikan (non-refundable)
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Timeline & Delivery
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Waktu pengerjaan konten: 3–7 hari kerja (tergantung kompleksitas)
+                Revisi maksimal: 2x revisi minor
+                Keterlambatan dari pihak klien (brief, approval) akan mempengaruhi timeline
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Revisions Policy
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Revisi hanya berlaku untuk:
+                Kesalahan informasi
+                Ketidaksesuaian dengan brief awal
+                Revisi besar / perubahan konsep = biaya tambahan
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Content Restrictions
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Ivan berhak menolak kerja sama yang mengandung:
+                Konten negatif / SARA / ilegal
+                Produk yang merugikan (scam, judi, dll)
+                Brand yang bertentangan dengan nilai personal
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Usage Rights
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Konten hanya boleh digunakan oleh klien untuk keperluan promosi internal
+                Penggunaan untuk iklan berbayar (ads) harus dengan izin dan biaya tambahan
+                Hak cipta tetap dimiliki oleh Ivan Neilsen
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Cancellation Policy
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Pembatalan oleh klien setelah pembayaran:
+                DP hangus
+                Jika konten sudah diproduksi:
+                Klien tetap wajib membayar penuh
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Performance Disclaimer
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Ivan tidak menjamin:
+                Jumlah views / likes / engagement tertentu
+                Hasil campaign tergantung banyak faktor (algoritma, audience, dll)
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Confidentiality
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Kedua pihak wajib menjaga kerahasiaan:
+                Data kerja sama,
+                Informasi bisnis,
+                Detail campaign
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0 font-bold"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Agreement
+            </p>
+
+            <p
+              className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+                Dengan menyetujui kerja sama ini, kedua belah pihak dianggap telah sepakat tanpa paksaan.
             </p>
 
             {/* <p
