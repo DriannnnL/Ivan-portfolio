@@ -5,6 +5,7 @@ import DrawerAppBar from "./Components/Navbar"
 import FullWidthTabs from "./Pages/Tabs"
 import ContactForm from "./Pages/ContactForm"
 import Pricing from "./Pages/Pricing"
+import Tnc from "./Pages/Tnc"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Blob/>
         <Home/>
         <AboutMe/>
+        <Tnc />
         <Pricing/>
         {/* <FullWidthTabs/> */}
         <ContactForm/>
