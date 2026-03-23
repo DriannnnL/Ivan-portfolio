@@ -44,7 +44,7 @@ const Home = () => {
         <div className="flex justify-center items-center md:w-1/2">
           <Tilt>
             <div className="relative md:bottom-[3em] bottom-[5em]">
-              <img src="../../dist/gaming.jpg" alt="Ilustrasi komputer" id="ImgKomputer" />
+            <img src="/gaming.jpg" alt="Ilustrasi komputer" />
             </div>
           </Tilt>
         </div>
