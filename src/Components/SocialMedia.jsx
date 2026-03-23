@@ -106,11 +106,11 @@ export default function SocialMedia() {
             fontSize: ["0.7rem", "1rem"],
           }}
         />
-        {/* <Tab
+        <Tab
           label={
             <div className="flex gap-x-3 w-full">
-              <img src="/SocialMediaImg/github.svg" alt="Github Eki" />
-              Github
+              <img src="/SocialMediaImg/youtube.svg" alt="Youtube Ivan" />
+              Youtube
             </div>
           }
           {...a11yProps(2)}
@@ -120,7 +120,7 @@ export default function SocialMedia() {
             color: "#ced4d7",
             fontSize: ["0.7rem", "1rem"],
           }}
-        /> */}
+        />
       </Tabs>
 
       <SwipeableViews index={value} onChangeIndex={handleChangeIndex}>
@@ -142,15 +142,15 @@ export default function SocialMedia() {
             />
           </a>
         </TabPanel>
-        {/* <TabPanel value={value} index={2}>
-          <a href="https://github.com/Drian27">
+        <TabPanel value={value} index={2}>
+          <a href="https://www.youtube.com/@ivanneilsenn">
             <img
-              src="/SocialMediaImg/github.jpeg"
-              alt="Github Adrian"
+              src="/SocialMediaImg/Youtube.png"
+              alt="Youtube Ivan"
               className="object-contain h-auto w-[10rem] md:w-[14.3rem] rounded-xl"
             />
           </a>
-        </TabPanel> */}
+        </TabPanel>
       </SwipeableViews>
     </Box>
   );
