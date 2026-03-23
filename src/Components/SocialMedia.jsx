@@ -94,7 +94,7 @@ export default function SocialMedia() {
         <Tab
           label={
             <div className="flex gap-x-3 w-full">
-              <img src="/SocialMediaImg/linkedin.svg" alt="Tiktok Ivan" />
+              <img src="/SocialMediaImg/tiktok.svg" alt="Tiktok Ivan" />
               Tiktok
             </div>
           }
@@ -136,7 +136,7 @@ export default function SocialMedia() {
         <TabPanel value={value} index={1}>
           <a href="https://www.tiktok.com/@1vanneilsen">
             <img
-              src="/SocialMediaImg/tiktokk.jpg"
+              src="/SocialMediaImg/Tiktok.png"
               alt="Tiktok Ivan"
               className="object-contain h-auto w-[10rem] md:w-[14.3rem] rounded-xl"
             />
