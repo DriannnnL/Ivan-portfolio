@@ -136,7 +136,7 @@ export default function SocialMedia() {
         <TabPanel value={value} index={1}>
           <a href="https://www.tiktok.com/@1vanneilsen">
             <img
-              src="/SocialMediaImg/Tiktok.png"
+              src="/SocialMediaImg/Tiktok.jpg"
               alt="Tiktok Ivan"
               className="object-contain h-auto w-[10rem] md:w-[14.3rem] rounded-xl"
             />
