@@ -48,7 +48,7 @@ export default function Pricing() {
     },
     {
         name: "Tiktok Vidio",
-        price: "2,000.000 IDR",
+        price: "4,000.000 IDR",
         features: [
         "Increase Brand Awareness",
         "Build Trust & Social Proof",
