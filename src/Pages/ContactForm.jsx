@@ -38,7 +38,7 @@ const ContactForm = () => {
               </div>
 
               <form
-                action="https://formsubmit.co/muhamaddrian05@gmail.com"
+                action="https://formsubmit.co/zelontod@gmail.com"
                 method="POST"
                 className=" md:p-1 p-0"
                 data-aos="fade-up"
