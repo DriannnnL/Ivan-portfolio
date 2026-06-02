@@ -57,15 +57,26 @@ export default function Pricing() {
         "Fast Engagement",
         ],
       },
+      // {
+      //   name: "Fee Invitation",
+      //   price: "4,000.000 IDR",
+      //   features: [
+      //   "Increase Brand Awareness",
+      //   "Build Trust & Social Proof",
+      //   "Increase Traffic & Sales",
+      //   "Reach a More Targeted Audience",
+      //   "Fast Engagement",
+      //   ],
+      // },
   ];
 
   return (
     <section className="bg-grey-400 px-6 lg:px-24 flex flex-col items-center mt-[176px]">
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-20 max-w-7xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 max-w-7xl">
         {packages.map((pkg, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-xl shadow-md border border-gray-200 w-80"
+            className="bg-white p-5 sm:p-6 rounded-2xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300 border border-gray-200 w-full"
             data-aos="fade-up"
             data-aos-delay={index * 200}
           >

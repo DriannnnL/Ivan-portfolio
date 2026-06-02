@@ -164,9 +164,6 @@ const Tnc = () => {
                 <li>Kesalahan informasi</li>
                 <li>Ketidaksesuaian dengan brief awal</li>
               </ul>
-              <p className="mb-2">
-                Revisi besar / perubahan konsep = biaya tambahan
-              </p>
             </div>
 
             <p
@@ -210,11 +207,6 @@ const Tnc = () => {
                   Konten hanya boleh digunakan oleh klien untuk keperluan
                   promosi internal
                 </li>
-                <li>
-                  Penggunaan untuk iklan berbayar (ads) harus dengan izin dan
-                  biaya tambahan
-                </li>
-                <li>Hak cipta tetap dimiliki oleh Ivan Neilsen</li>
               </ul>
             </div>
 
